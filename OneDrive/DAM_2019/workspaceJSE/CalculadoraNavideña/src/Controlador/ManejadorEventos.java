@@ -30,7 +30,7 @@ import Vista.VentanaP;
 				String texto = "Funcionalidad no disponible";
 				double resultado4 =0.0;
 				double resultado5 =0.0;
-			
+				
 				double num1 = Double.parseDouble(ventana.getCaja1().getText());// AQUI LA PARSEO PORQUE ES UNA 
 				double num2 = Double.parseDouble(ventana.getCaja2().getText());// CAJA DE TEXTO
 				String mensaje = "FELIZ NAVIDAD";
@@ -138,6 +138,8 @@ import Vista.VentanaP;
 			System.out.println("Teclea un numero por favor");
 			System.out.println("Para las Raices usa los dos campos");
 			System.out.println(e1.getMessage());
+			ventana.getEtiqueta5().setText("PON NUMEROS");
+			ventana.ReproducirSonido("ho-ho-ho.wav");
 			return;
 		} 
 		
